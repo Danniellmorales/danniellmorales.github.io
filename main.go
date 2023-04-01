@@ -11,7 +11,7 @@ func main() {
 	router()
 
 	fmt.Printf("Starting server at port 3000\n")
-	if err := http.ListenAndServe(":3000", nil); err != nil {
+	if err := http.ListenAndServe(":4000", nil); err != nil {
 		log.Fatal(err)
 	}
 }
