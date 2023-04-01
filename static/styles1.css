@@ -1,0 +1,18 @@
+/* Aplica un fondo transparente a la página */
+body {
+    background-color: black;
+  }
+  
+  /* Centra el título en la página y lo hace blanco */
+  h1 {
+    color: #fff;
+    text-align: center;
+  }
+  
+  /* Establece la forma redonda de la imagen */
+  img {
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+  
