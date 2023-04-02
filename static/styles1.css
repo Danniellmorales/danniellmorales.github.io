@@ -1,18 +1,92 @@
-/* Aplica un fondo transparente a la página */
+/* Estilos generales */
+
 body {
     background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
   }
   
-  /* Centra el título en la página y lo hace blanco */
-  h1 {
-    color: #fff;
-    text-align: center;
-  }
+  /* Estilos para la imagen */
   
-  /* Establece la forma redonda de la imagen */
-  img {
+  #my-img {
     border-radius: 50%;
-    display: block;
-    margin: 0 auto;
+    overflow: hidden;
+    width: 50%;
+    margin-right: 50px;
   }
+  
+  #about-me {
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#about-me h1{
+    font-size: 70px;
+}
+
+h1,h2,h3,button{
+    margin: 10px;
+}
+
+#my-img {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+
+    
+}
+
+img {
+    border-radius: 50%;
+    width: 80%;
+    height: auto;
+    box-shadow: 0px 0px 10px 10px  #2ecc71;
+}
+
+h1, h2, h3 {
+    color: white;
+    text-align: center;
+}
+
+#button-green {
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+#my-img {
+    width: 45%;
+    height: auto;
+    margin-right: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    
+}
+
+#about-me {
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
   
